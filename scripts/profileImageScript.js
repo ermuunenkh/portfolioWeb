@@ -1,5 +1,5 @@
 const images = ["image1.png", "image2.png", "image3.png", "image4.png"];
-const pth = "/sources/profile-images/"
+const pth = "sources/profile-images/"
 
 // Flipping Mechanism
 function flipImage(element) {
