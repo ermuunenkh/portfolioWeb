@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ermuun's Portfolio</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/general.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- External Imports -->
+    <script src="https://kit.fontawesome.com/705831e899.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Ermuun</a>
+            <ul class="nav-menu">
+                <li class="moveable nav-item"><a href="#home">Home</a></li>
+                <li class="moveable nav-item"><a href="#about">About</a></li>
+                <li class="moveable nav-item"><a href="#experience">Experience</a></li>
+                <li class="moveable nav-item"><a href="#certificate">Certificates</a></li>
+                <li class="moveable nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <ul class="invisible">
+            <li class="immovable nav-item"><a href="#">Recommendations</a></li>
+            <li class="immovable nav-item"><a href="#">Writings</a></li>
+        </ul>
+    </div>
+    <div id="home">
+        <div class="img-container">
+            <div class="card" onclick="flipImage()">
+                <div class="front on-focus">
+                    <img src="/sources/profile-images/image1.png">
+                </div>
+                <div class="back">
+                    <img src="">
+                </div>
+            </div>
+           <div class="cover">
+                <h1>Click Me</h1>
+           </div> 
+        </div>
+        <div class="greetings">
+            <h1>
+                Hey there, I'm <span class="highlight blue">Ermuun</span>, but my buddies call me 
+                <span class="highlight blue">Meru</span>!
+                I'm a curious individual with a passion for <span class="highlight yellow">learning</span> 
+                <span class="highlight red">AI</span> and <span class="highlight red">programming</span>, 
+                and I'm thrilled to have you on my <span class="highlight green">website</span>.
+            </h1>
+            <h1>Take a look around, get to know me a bit, and feel free to say hi!</h1>
+            <button>
+                <a href="#contact">Say Hi!</a>
+            </button>
+        </div>
+    </div>
+    <div id="about">
+        <div class="left">
+            <h1>About Me {</h1>
+            <p>
+                I'm a high school graduate who decided to take a gap year before heading off to college or university. During that year, I spent time exploring myself and what I want to do with my life. I realized that my passion lies in computer science, specifically in AI engineering.
+            </p>
+            <p>
+                I've been interested in programming and computer science since I joined my school's informatics club in 7th grade. From that point on, I knew that I wanted to pursue a career in this field. My ultimate goal is to use AI to make a positive impact on the world by finding cures for various diseases.
+            </p>
+            <p>
+                But I'm not just about computer science! I'm also a big fan of the concept of time, and I love chatting about the possibilities of time travel. I'm a curious person and enjoy exploring new ideas and perspectives. In fact, I like to say that I'm a C+++ - Curious, Creative, and Courageous! I enjoy facing challenges and being challenged, because it helps me stay active and engaged.
+            </p>
+            <p>
+                And speaking of staying active, I have two years of experience in ballroom dancing! Dancing is one of my passions, and it allows me to express myself through movement and art.
+            </p>
+            <p>
+                All in all, I bring a unique combination of interests, skills, and perspectives to the table. I'm a cheerful and enthusiastic person who loves to have fun and make the most out of every opportunity. I can't wait to see where my passion for AI and my diverse interests will take me in the future!
+            </p>
+            <h1>}</h1>
+        </div>
+        <div class="right">
+            <!-- <div class="titles">
+                <h3 class="fact .active">Hobbies</h3>
+                <h3 class="fact">Skills</h3>
+                <h3 class="fact">Strengths</h3>
+                <h3 class="fact">Interest</h3>
+            </div>
+            <div class="fact-card">
+                <div class="upper">
+                    <div class="zuun">
+                        <div class="title">Dancing</div>
+                        <div class="additional">National Champion</div>
+                    </div>
+                    <div class="baruun">
+                        <img src="/sources/time_travel.png" alt="">
+                    </div>
+                </div> 
+                <div class="lower">
+                    <div class="description"></div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="test" id="experience">EXPERIENCE</div>
+    <div class="test" id="certificate">CERTIFICATES</div>
+    <div class="test" id="contact">CONTACT</div>
+    <!-- <div class="test" id="recommendations">RECOMMENDATIONS</div> -->
+    <!-- <div class="test" id="writings">WRITINGS</div> -->
+
+    <!-- Scripts -->
+    <script src="/scripts/scrollEvent.js"></script>
+    <script src="/scripts/menuScript.js"></script>
+    <script src="/scripts/responsiveScreen.js"></script>
+    <script src="/scripts/profileImageScript.js"></script>
+</body>
+</html>
